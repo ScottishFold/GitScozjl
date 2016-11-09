@@ -29,9 +29,8 @@
     
     [self methodWillBeAddedIntoNewBranch];
     
-    NSLog(@"12345testBranch");
     
-    NSLog(@"i am code in follow branch");
+    
 }
 
 - (void)methodWillBeAddedIntoNewBranch
