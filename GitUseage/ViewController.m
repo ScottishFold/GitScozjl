@@ -14,6 +14,8 @@
 
 @property (nonatomic ,strong) BlankViewController *blankVC;
 
+- (void)methodWillBeAddedIntoNewBranch;
+
 @end
 
 @implementation ViewController
@@ -24,6 +26,13 @@
     int a = 5, b = 10;
     self.sum = a + b;
     NSLog(@"sum = %d", self.sum);
+    
+    [self methodWillBeAddedIntoNewBranch];
+}
+
+- (void)methodWillBeAddedIntoNewBranch
+{
+    NSLog(@"this is a new method that will be added to my own branch");
 }
 
 
