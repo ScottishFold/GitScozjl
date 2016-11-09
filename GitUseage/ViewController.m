@@ -28,6 +28,8 @@
     NSLog(@"sum = %d", self.sum);
     
     [self methodWillBeAddedIntoNewBranch];
+    
+    NSLog(@"12345testBranch");
 }
 
 - (void)methodWillBeAddedIntoNewBranch
