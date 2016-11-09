@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BlankViewController.h
 //  GitUseage
 //
 //  Created by scozjl on 16/11/9.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BlankViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface BlankViewController : UIViewController
 
 @end
-

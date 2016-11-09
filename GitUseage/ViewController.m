@@ -12,6 +12,8 @@
 
 @property (nonatomic, assign) int sum;
 
+@property (nonatomic ,strong) BlankViewController *blankVC;
+
 @end
 
 @implementation ViewController

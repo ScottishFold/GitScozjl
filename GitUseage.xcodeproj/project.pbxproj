@@ -15,6 +15,7 @@
 		609AF2A41DD2CB6800BF8FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609AF2A21DD2CB6800BF8FFE /* LaunchScreen.storyboard */; };
 		609AF2AF1DD2CB6800BF8FFE /* GitUseageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609AF2AE1DD2CB6800BF8FFE /* GitUseageTests.m */; };
 		609AF2BA1DD2CB6800BF8FFE /* GitUseageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609AF2B91DD2CB6800BF8FFE /* GitUseageUITests.m */; };
+		609AF3471DD2D14900BF8FFE /* BlankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609AF3461DD2D14900BF8FFE /* BlankViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		609AF2B51DD2CB6800BF8FFE /* GitUseageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		609AF2B91DD2CB6800BF8FFE /* GitUseageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseageUITests.m; sourceTree = "<group>"; };
 		609AF2BB1DD2CB6800BF8FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609AF3451DD2D14900BF8FFE /* BlankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlankViewController.h; sourceTree = "<group>"; };
+		609AF3461DD2D14900BF8FFE /* BlankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlankViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				609AF2981DD2CB6800BF8FFE /* AppDelegate.m */,
 				609AF29A1DD2CB6800BF8FFE /* ViewController.h */,
 				609AF29B1DD2CB6800BF8FFE /* ViewController.m */,
+				609AF3451DD2D14900BF8FFE /* BlankViewController.h */,
+				609AF3461DD2D14900BF8FFE /* BlankViewController.m */,
 				609AF29D1DD2CB6800BF8FFE /* Main.storyboard */,
 				609AF2A01DD2CB6800BF8FFE /* Assets.xcassets */,
 				609AF2A21DD2CB6800BF8FFE /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				609AF29C1DD2CB6800BF8FFE /* ViewController.m in Sources */,
 				609AF2991DD2CB6800BF8FFE /* AppDelegate.m in Sources */,
 				609AF2961DD2CB6800BF8FFE /* main.m in Sources */,
+				609AF3471DD2D14900BF8FFE /* BlankViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
