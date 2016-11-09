@@ -29,7 +29,7 @@
     
     [self methodWillBeAddedIntoNewBranch];
     
-    
+    NSLog(@"master branch code");
     
 }
 
