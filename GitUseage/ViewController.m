@@ -30,6 +30,7 @@
     [self methodWillBeAddedIntoNewBranch];
     
     NSLog(@"master branch code");
+    NSLog(@"fkBranch code");
     
 }
 
